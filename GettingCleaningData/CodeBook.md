@@ -1,6 +1,6 @@
 ### Overview
 
-This file describes the data set, the variables, the variable selection and data analysis process, and how the aggregated function used to get the tidy data set. 
+This file describes the [data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), the variables, the variable selection process, and what aggregate function is used to get the tidy data set by running [run_analysis.R](https://github.com/edithbeen/CourseraCourses/blob/master/GettingCleaningData/run_analysis.R) under the same directory. 
 
 ### Data Description
 
@@ -130,7 +130,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ### Variable and Aggregation Function Selection
 
-In addition to the subject ID and activity type, only the variables on the mean and standard deviation for each measurement are selected to create the aggregated data set. That is, only the variables created with mean() and std() of the sensor signals are selected. A total of 66 feature variables are selected. 
+In addition to the subject ID and activity type, only the variables on the mean and standard deviation for each measurement are selected to create the aggregated data set. That is, only the variables created with "mean()" and "std()" of the sensor signals are selected. A total of 66 feature variables are selected. 
 
 Meanwhile, the mean function is applied to create the aggregated data set. That is, the values in the created data set are the mean of the means and standard deviations. 
 
