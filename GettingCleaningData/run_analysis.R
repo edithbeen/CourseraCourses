@@ -3,7 +3,6 @@
 wd = getwd()
 setwd(wd)
 
-
 # load the packages
 ### IMPORTANT: Make sure to have the latest data.table package (after Version 1.9.6)!!!
 install.packages("data.table")
